@@ -1,8 +1,10 @@
 import React from 'react'
-import "./Home.css"
+
 const Home = () => {
   return (
-    <div>Home Hello</div>
+   <>
+   <div>Home</div>
+   </>
   )
 }
 
