@@ -3,7 +3,9 @@
   padding: 0%;
   box-sizing: border-box;
 }
-html,body{
-  width:100vw;
+html,
+body {
+  width: 100vw;
   min-height: 100vh;
+  font-family: "Ubuntu", sans-serif;
 }
