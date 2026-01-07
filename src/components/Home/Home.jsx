@@ -8,6 +8,7 @@ const Home = () => {
     { label: "Explore", path: "/explore" },
     { label: "Service", path: "/service" },
     { label: "Contact", path: "/contact" },
+    { label: "Trending", path: "/trending" },
   ];
 
   return (
