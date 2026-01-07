@@ -114,3 +114,9 @@ ul li a:hover {
     border-radius: 20px;
 
 }
+
+@media  (max-width:1024px) {
+ .navbar ul{
+    display:none;
+ }   
+}

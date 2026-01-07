@@ -1,9 +1,9 @@
 .main2 {
   background-color: #1e89b3ab;
   color: white;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
-  padding: 7% 15%;
+  padding: 4% 0%;
 }
 
 .title2 {
@@ -24,61 +24,63 @@
   font-size: 0.9rem;
 }
 
-.cards1{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 4%;
+.cards1 {
+  display: flex;
+  justify-content:center;
+  margin-top: 4%;
+  gap: 40px;
+  flex-wrap: wrap;
+
 }
 
-.card1{
-    background-color: white;
-    box-shadow: 5px 5px 20px black;
-    border-radius: 10px;
-    height: 20rem;
-    width: 15rem;
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    padding: 0;
-    padding-bottom: 1rem;
-    text-align: start;
+.card1 {
+  background-color: white;
+  box-shadow: 5px 5px 20px black;
+  border-radius: 10px;
+  height: 20rem;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  padding: 0;
+  padding-bottom: 1rem;
+  text-align: start;
 }
 
-.card1:hover{
-    box-shadow: 10px 10px 30px black;
+.card1:hover {
+  box-shadow: 10px 10px 30px black;
 }
 
-.card1 img{
-    height: 10rem;
-    width: 100%;
-    border-top-left-radius: 10px ;
-    border-top-right-radius: 10px;
+.card1 img {
+  height: 10rem;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 
-.card1 h3{
-   color: black;
-   padding: 1.5rem 1rem 0.5rem 1rem;
-   margin: 0;
+.card1 h3 {
+  color: black;
+  padding: 1.5rem 1rem 0.5rem 1rem;
+  margin: 0;
 }
 
-.card1 p{
-    color: black;
-    font-size: 0.8rem;
-    word-spacing: 2px;
-    line-height: 1rem;
-    padding: 0 1rem;
+.card1 p {
+  color: black;
+  font-size: 0.8rem;
+  word-spacing: 2px;
+  line-height: 1rem;
+  padding: 0 1rem;
 }
 
-.options1{
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
+.options1 {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
 }
 
-.options1 a{
-    text-decoration: none;
-    color: #FF2E51;
-    font-size: 0.9rem;
+.options1 a {
+  text-decoration: none;
+  color: #FF2E51;
+  font-size: 0.9rem;
 }
-
