@@ -26,11 +26,10 @@
 
 .cards1 {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   margin-top: 4%;
   gap: 40px;
   flex-wrap: wrap;
-
 }
 
 .card1 {
@@ -58,7 +57,6 @@
   border-top-right-radius: 10px;
 }
 
-
 .card1 h3 {
   color: black;
   padding: 1.5rem 1rem 0.5rem 1rem;
@@ -81,6 +79,6 @@
 
 .options1 a {
   text-decoration: none;
-  color: #FF2E51;
+  color: #ff2e51;
   font-size: 0.9rem;
 }
